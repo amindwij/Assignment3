@@ -1,0 +1,92 @@
+/* App.css */
+body{
+  background-color: rgb(243, 243, 254);
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between; /* Align items to both sides */
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #555;
+}
+
+.contract,
+.existing-contracts {
+  width: 70%;
+  margin-bottom: 30px;
+}
+.existing-contract1 {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  background-color: #acc8d2; /* Optional: Add a background color */
+}
+.contract h1,
+.existing-contracts h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contract label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contract input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #ad262f;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.existing-contracts #container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Add more styles as needed */
